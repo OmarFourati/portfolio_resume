@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+/* Animated Gradient Background */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-gradient-animation {
+  background: linear-gradient(45deg, #4e73df, #1cc88a, #f0ad4e);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+/* Floating Animation */
+@keyframes float1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes float3 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Apply Floating Animations */
+.animate-float1 {
+  animation: float1 3s ease-in-out infinite;
+}
+
+.animate-float2 {
+  animation: float2 3s ease-in-out infinite;
+}
+
+.animate-float3 {
+  animation: float3 3s ease-in-out infinite;
+}
