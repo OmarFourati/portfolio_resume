@@ -1,5 +1,5 @@
 <div
-  class="min-h-screen bg-gradient-to-br from-purple-600 via-indigo-500 to-blue-400 text-white relative overflow-hidden"
+  class="min-h-screen bg-gradient-to-br from-teal-600 via-blue-500 to-purple-400 text-white relative overflow-hidden"
 >
   <!-- Wrapper to set width to 80% of the screen width -->
   <div class="w-4/5 mx-auto px-4">
@@ -34,9 +34,9 @@
           </li>
           <li>
             <a
-              href="#projects"
+              href="#experience"
               class="hover:text-gray-300 transition-transform transform hover:scale-110"
-              >Projects</a
+              >Experience</a
             >
           </li>
           <li>
@@ -75,7 +75,7 @@
       id="about"
       class="px-8 py-16 bg-white text-gray-800 rounded-tl-[50px] rounded-tr-[50px] shadow-xl"
     >
-      <h2 class="text-4xl font-bold mb-8">About Me</h2>
+      <h2 class="text-4xl font-bold mb-8 text-center">About Me</h2>
       <div class="space-y-8">
         <p class="text-lg leading-relaxed mb-6">
           I am Omar Fourati. I am currently pursuing my master's degree in
@@ -307,11 +307,14 @@
             >
               <div class="flex">
                 <i class="fas fa-book text-2xl text-green-200 mb-2"></i>
-                <h4 class="font-semibold mb-2 pt-1 ml-2">Thesis</h4>
+                <h4 class="font-semibold mb-2 pt-1 ml-2">Learnings</h4>
               </div>
               <p class="text-sm text-gray-600">
-                On going (till 31.03.2024) : Development of an AI Compliance
-                tool based on the EU AI Act.
+                Know-How into other European University Culture and deep dive
+                into the baltic countries culture.<br />
+                Visit of the neighboor countries as well for a an interesting
+                overview on similarities and differences of the three baltic
+                countries.
               </p>
             </div>
           </div>
@@ -322,17 +325,17 @@
     <!-- Skills Section with Animation -->
     <section
       id="skills"
-      class="px-8 py-16 bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-200"
+      class="px-8 py-16 bg-gradient-to-br from-indigo-200 via-purple-100 to-blue-200"
     >
       <h2
-        class="text-4xl font-bold mb-6 text-gray-800 animate__animated animate__fadeIn animate__delay-3s"
+        class="text-4xl font-bold mb-6 text-gray-800 animate__animated animate__fadeIn animate__delay-2s text-center"
       >
         Skills
       </h2>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         <div
           *ngFor="let skill of skills"
-          class="p-6 bg-white text-gray-800 rounded-lg shadow-xl hover:bg-gradient-to-br hover:from-teal-300 hover:to-blue-300 transform transition-all flex flex-col items-center justify-center"
+          class="p-6 bg-white text-gray-800 rounded-lg shadow-lg hover:shadow-xl hover:bg-gradient-to-br hover:from-yellow-200 hover:to-orange-300 transform transition-all duration-300 ease-in-out flex flex-col items-center justify-center"
         >
           <img [src]="skill.icon" [alt]="skill.name" class="w-16 h-16 mb-2" />
           <span class="text-lg font-semibold">{{ skill.name }}</span>
@@ -341,26 +344,132 @@
     </section>
 
     <!-- Projects Section with Hover Effect -->
-    <section id="projects" class="px-8 py-16 bg-white text-gray-800">
-      <h2 class="text-4xl font-bold mb-6">Projects</h2>
-      <div class="grid gap-8 md:grid-cols-2">
-        <div
-          class="p-8 bg-gradient-to-br from-purple-100 via-indigo-100 to-blue-100 rounded-lg shadow-lg transform transition-all hover:scale-105"
-        >
-          <h3 class="text-2xl font-semibold">Project 1</h3>
-          <p class="text-lg mt-2">
-            Description of your project goes here. A brief overview of the
-            project's goals and achievements.
-          </p>
+    <section id="experience" class="px-8 py-16 bg-white text-gray-800">
+      <h2
+        class="text-4xl font-bold mb-12 text-center animate__animated animate__fadeIn animate__delay-2s"
+      >
+        Professional Experience
+      </h2>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div
+            class="timeline-content bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-200"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <img
+                src="assets/evosoft_logo.svg"
+                alt="evosoft GmbH logo"
+                class="w-12 h-12 mr-4"
+              />
+              <div>
+                <h3 class="font-bold text-xl">
+                  Working Student: Software Developer Fullstack (Nürnberg)
+                </h3>
+                <p class="text-sm font-semibold text-green-700">evosoft GmbH</p>
+              </div>
+            </div>
+            <p class="text-gray-500 mb-2 text-x1 text-sm">
+              March 2022 - Today (2 year 11 months)
+            </p>
+            <p class="text-gray-700">
+              <b
+                >Frontend: HTML/CSS/TypeScript - Angular<br />
+                Backend: SQL - Python/JavaScript<br />
+                Cloud: AWS (Lambda, API Gateway...)<br
+              /></b>
+              Working in various projects:<br />
+              - A tool for hospital patients to help with navigation through the
+              building.<br />
+              - A software in collaboration with Siemens with the goal of
+              digitalization and optimization of sales processes (customers,
+              discount calculations through ML, sales information).
+            </p>
+          </div>
         </div>
+        <div class="timeline-item right">
+          <div
+            class="timeline-content bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-200"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <img
+                src="assets/evosoft_logo.svg"
+                alt="evosoft GmbH logo"
+                class="w-12 h-12 mr-4"
+              />
+              <div>
+                <h3 class="font-bold text-xl">
+                  Internship - Machine Learning Operations (Nürnberg)
+                </h3>
+                <p class="text-sm font-semibold text-green-700">evosoft GmbH</p>
+              </div>
+            </div>
+            <p class="text-gray-500 mb-2 text-x1 text-sm">
+              October 2021 - March 2022 (6 months)
+            </p>
+            <p class="text-gray-700">
+              <b
+                >Machine Learning Operations (MLOps)<br />
+                ML Engineering - Pipelines - Deployment<br />
+                Cloud Storage (AWS, S3, SageMaker)<br
+              /></b>
+              Work within a research team created for developing and researching
+              innovation in the Data Science field. Mostly pair pair programming
+              and learning in the field through small tasks with cloud
+              architecture and terraform of developped MLOps solutions.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div
+            class="timeline-content bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-200"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <img
+                src="assets/evosoft_logo.svg"
+                alt="evosoft GmbH logo"
+                class="w-12 h-12 mr-4"
+              />
+              <div>
+                <h3 class="font-bold text-xl">
+                  Working Student: UX/UI Design - Software Development
+                  (Nürnberg)
+                </h3>
+                <p class="text-sm font-semibold text-green-700">evosoft GmbH</p>
+              </div>
+            </div>
+            <p class="text-gray-500 mb-2 text-x1 text-sm">
+              November 2020 - October 2021 (1 year)
+            </p>
+            <p class="text-gray-700">
+              <b>
+                UX/UI Tests and Interviews + Feedback<br />
+                Developping Figma screens for new features<br
+              /></b>
+              Frontend dev. for an intern software for projects, employees, and
+              team management.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section
+      id="skills"
+      class="px-8 py-16 bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-200"
+    >
+      <h2
+        class="text-4xl font-bold mb-6 text-gray-800 animate__animated animate__fadeIn animate__delay-3s"
+      >
+        Professional Experience
+      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         <div
-          class="p-8 bg-gradient-to-br from-purple-100 via-indigo-100 to-blue-100 rounded-lg shadow-lg transform transition-all hover:scale-105"
+          *ngFor="let skill of skills"
+          class="p-6 bg-white text-gray-800 rounded-lg shadow-xl hover:bg-gradient-to-br hover:from-teal-300 hover:to-blue-300 transform transition-all flex flex-col items-center justify-center"
         >
-          <h3 class="text-2xl font-semibold">Project 2</h3>
-          <p class="text-lg mt-2">
-            Description of your project goes here. This could include links,
-            technologies used, and the project's impact.
-          </p>
+          <img [src]="skill.icon" [alt]="skill.name" class="w-16 h-16 mb-2" />
+          <span class="text-lg font-semibold">{{ skill.name }}</span>
         </div>
       </div>
     </section>
