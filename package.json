@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:prod": "ng build --configuration=production --base-href \"https://OmarFourati.github.io/portfolio_resume/\"",
-    "deploy:gh": "npx angular-cli-ghpages --dir=dist/portfolio_resume"
+    "deploy:gh": "npx angular-cli-ghpages --dir=dist/portfolio_resume/browser"
   },
   "private": true,
   "dependencies": {
