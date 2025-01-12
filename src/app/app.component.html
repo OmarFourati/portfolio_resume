@@ -1,6 +1,6 @@
 <div class="min-h-screen bg-gray-800 text-white relative overflow-hidden">
   <!-- Wrapper to set width to 80% of the screen width -->
-  <div class="w-4/5 mx-auto px-4">
+  <div class="w-full md:w-4/5 mx-auto px-4">
     <!-- Floating Animation Elements in the Background -->
     <div
       class="absolute top-[45%] right-1/4 w-48 h-48 rounded-full bg-gradient-to-br from-pink-300 via-purple-400 to-indigo-500 animate-float2 opacity-50"
@@ -11,47 +11,49 @@
 
     <!-- Header Section -->
     <header
-      class="flex justify-between items-center px-8 py-4 shadow-2xl bg-gray-800 rounded-lg border border-gray-700 shadow-[0_0_15px_rgba(255,255,255,0.1)]"
+      class="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-4 shadow-2xl bg-gray-800 rounded-lg border border-gray-700 shadow-[0_0_15px_rgba(255,255,255,0.1)]"
     >
-      <h1 class="text-3xl font-bold tracking-widest">Omar Fourati</h1>
+      <h1 class="text-2xl md:text-3xl font-bold tracking-widest mb-4 md:mb-0">
+        Omar Fourati
+      </h1>
       <nav>
-        <ul class="flex space-x-8 text-lg">
-          <li>
+        <ul class="flex flex-wrap justify-center md:space-x-8 text-lg">
+          <li class="mx-2 my-1">
             <a
               href="#about"
               class="hover:text-orange-200 transition-transform transform hover:scale-110"
               >About</a
             >
           </li>
-          <li>
+          <li class="mx-2 my-1">
             <a
               href="#skills"
-              class="hover:text-orange-200transition-transform transform hover:scale-110"
+              class="hover:text-orange-200 transition-transform transform hover:scale-110"
               >Skills</a
             >
           </li>
-          <li>
+          <li class="mx-2 my-1">
             <a
               href="#experience"
               class="hover:text-orange-200 transition-transform transform hover:scale-110"
               >Experience</a
             >
           </li>
-          <li>
+          <li class="mx-2 my-1">
             <a
               href="#projects"
               class="hover:text-orange-200 transition-transform transform hover:scale-110"
               >Projects</a
             >
           </li>
-          <li>
+          <li class="mx-2 my-1">
             <a
               href="#certifications"
               class="hover:text-orange-200 transition-transform transform hover:scale-110"
               >Certifications</a
             >
           </li>
-          <li>
+          <li class="mx-2 my-1">
             <a
               href="#contact"
               class="hover:text-orange-200 transition-transform transform hover:scale-110"
@@ -64,24 +66,23 @@
 
     <!-- Hero Section -->
     <section
-      class="text-center py-24 animate__animated animate__fadeIn animate__delay-1s"
+      class="text-center py-12 md:py-24 animate__animated animate__fadeIn animate__delay-1s"
     >
-      <h2 class="text-6xl font-bold mb-6 tracking-tight">
+      <h2 class="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
         Hello, I'm <span class="text-orange-200">Omar Fourati</span>
       </h2>
       <p
-        class="text-xl animate__animated animate__fadeIn animate__delay-2s mb-6"
+        class="text-lg md:text-xl animate__animated animate__fadeIn animate__delay-2s mb-6"
       >
         Full-stack Developer | Creative Thinker | Problem-solver
       </p>
       <a
         href="#footer"
-        class="mt-6 inline-block px-8 py-4 text-lg font-semibold bg-orange-200 rounded-lg shadow-lg hover:bg-gradient-to-br hover:from-cyan-600 hover:to-cyan-800 transform hover:scale-105 transition-all"
+        class="mt-6 inline-block px-6 md:px-8 py-3 md:py-4 text-base md:text-lg font-semibold bg-orange-200 rounded-lg shadow-lg hover:bg-gradient-to-br hover:from-cyan-600 hover:to-cyan-800 transform hover:scale-105 transition-all"
       >
         Contact Me
       </a>
     </section>
-
     <!-- About Section -->
     <section
       id="about"
@@ -309,7 +310,8 @@
                 <h4 class="font-semibold mb-2 pt-1 ml-2">Specialization</h4>
               </div>
               <p class="text-sm text-gray-600">
-                Artificial Intelligence (Agents, Trees, Calculus Propositional..)
+                Artificial Intelligence (Agents, Trees, Calculus
+                Propositional..)
               </p>
               <p class="text-sm text-gray-600">Applied Software Engineering</p>
               <p class="text-sm text-gray-600">
