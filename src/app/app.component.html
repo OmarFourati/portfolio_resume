@@ -1,14 +1,6 @@
 <div class="min-h-screen bg-gray-800 text-white relative overflow-hidden">
   <!-- Wrapper to set width to 80% of the screen width -->
   <div class="w-full md:w-4/5 mx-auto px-4">
-    <!-- Floating Animation Elements in the Background -->
-    <div
-      class="absolute top-[45%] right-1/4 w-48 h-48 rounded-full bg-gradient-to-br from-pink-300 via-purple-400 to-indigo-500 animate-float2 opacity-50"
-    ></div>
-    <div
-      class="absolute top-[37%] left-1/4 w-56 h-56 rounded-full bg-gradient-to-br from-yellow-300 via-orange-400 to-red-500 animate-float3 opacity-40"
-    ></div>
-
     <!-- Header Section -->
     <header
       class="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-4 shadow-2xl bg-gray-800 rounded-lg border border-gray-700 shadow-[0_0_15px_rgba(255,255,255,0.1)]"
@@ -361,40 +353,47 @@
       </div>
     </section>
 
-    <!-- Projects Section with Hover Effect -->
-    <section id="experience" class="px-8 py-16 bg-gray-100 text-gray-800">
+    <!-- Experience -->
+    <section
+      id="experience"
+      class="px-4 sm:px-8 py-16 bg-gray-100 text-gray-800"
+    >
       <h2
-        class="text-4xl font-bold mb-12 text-center animate__animated animate__fadeIn animate__delay-2s text-gray-800"
+        class="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center animate__animated animate__fadeIn animate__delay-2s text-gray-800"
       >
         Professional Experience
       </h2>
-      <div class="timeline">
-        <div class="timeline-item left">
+      <div class="timeline space-y-8">
+        <div class="timeline-item">
           <div
-            class="timeline-content bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-100"
+            class="timeline-content bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-100 p-6 rounded-lg shadow-md"
           >
-            <div class="flex items-center justify-between mb-4">
+            <div
+              class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4"
+            >
               <img
                 src="assets/evosoft_logo.svg"
                 alt="evosoft GmbH logo"
-                class="w-12 h-12 mr-4"
+                class="w-12 h-12 mb-2 sm:mb-0 sm:mr-4"
               />
               <div>
-                <h3 class="font-bold text-xl">
+                <h3 class="font-bold text-xl mb-1">
                   Working Student: Software Developer Fullstack (Nürnberg)
                 </h3>
                 <p class="text-sm font-semibold text-green-700">evosoft GmbH</p>
               </div>
             </div>
-            <p class="text-gray-500 mb-2 text-x1 text-sm">
+            <p class="text-gray-500 mb-2 text-sm">
               March 2022 - Today (2 years 11 months)
             </p>
-            <p class="text-gray-700">
+            <p class="text-gray-700 text-sm">
               <b
                 >Frontend: HTML/CSS/TypeScript - Angular<br />
                 Backend: SQL - Python/JavaScript<br />
-                Cloud: AWS (Lambda, API Gateway...)<br
-              /></b>
+                Cloud: AWS (Lambda, API Gateway...)</b
+              >
+            </p>
+            <p class="text-gray-700 text-sm mt-2">
               Working in various projects:<br />
               - A tool for hospital patients to help with navigation through the
               building.<br />
@@ -404,65 +403,75 @@
             </p>
           </div>
         </div>
-        <div class="timeline-item right">
+
+        <div class="timeline-item">
           <div
-            class="timeline-content bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-100"
+            class="timeline-content bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-100 p-6 rounded-lg shadow-md"
           >
-            <div class="flex items-center justify-between mb-4">
+            <div
+              class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4"
+            >
               <img
                 src="assets/evosoft_logo.svg"
                 alt="evosoft GmbH logo"
-                class="w-12 h-12 mr-4"
+                class="w-12 h-12 mb-2 sm:mb-0 sm:mr-4"
               />
               <div>
-                <h3 class="font-bold text-xl">
+                <h3 class="font-bold text-xl mb-1">
                   Internship - Machine Learning Operations (Nürnberg)
                 </h3>
                 <p class="text-sm font-semibold text-green-700">evosoft GmbH</p>
               </div>
             </div>
-            <p class="text-gray-500 mb-2 text-x1 text-sm">
+            <p class="text-gray-500 mb-2 text-sm">
               October 2021 - March 2022 (6 months)
             </p>
-            <p class="text-gray-700">
+            <p class="text-gray-700 text-sm">
               <b
                 >Machine Learning Operations (MLOps)<br />
                 ML Engineering - Pipelines - Deployment<br />
-                Cloud Storage (AWS, S3, SageMaker)<br
-              /></b>
+                Cloud Storage (AWS, S3, SageMaker)</b
+              >
+            </p>
+            <p class="text-gray-700 text-sm mt-2">
               Work within a research team created for developing and researching
-              innovation in the Data Science field. Mostly pair pair programming
-              and learning in the field through small tasks with cloud
-              architecture and terraform of developped MLOps solutions.
+              innovation in the Data Science field. Mostly pair programming and
+              learning in the field through small tasks with cloud architecture
+              and terraform of developed MLOps solutions.
             </p>
           </div>
         </div>
-        <div class="timeline-item left">
+
+        <div class="timeline-item">
           <div
-            class="timeline-content bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-100"
+            class="timeline-content bg-gradient-to-br from-indigo-100 via-purple-100 to-blue-100 p-6 rounded-lg shadow-md"
           >
-            <div class="flex items-center justify-between mb-4">
+            <div
+              class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4"
+            >
               <img
                 src="assets/evosoft_logo.svg"
                 alt="evosoft GmbH logo"
-                class="w-12 h-12 mr-4"
+                class="w-12 h-12 mb-2 sm:mb-0 sm:mr-4"
               />
               <div>
-                <h3 class="font-bold text-xl">
+                <h3 class="font-bold text-xl mb-1">
                   Working Student: UX/UI Design - Software Development
                   (Nürnberg)
                 </h3>
                 <p class="text-sm font-semibold text-green-700">evosoft GmbH</p>
               </div>
             </div>
-            <p class="text-gray-500 mb-2 text-x1 text-sm">
+            <p class="text-gray-500 mb-2 text-sm">
               November 2020 - October 2021 (1 year)
             </p>
-            <p class="text-gray-700">
-              <b>
-                UX/UI Tests and Interviews + Feedback<br />
-                Developping Figma screens for new features<br
-              /></b>
+            <p class="text-gray-700 text-sm">
+              <b
+                >UX/UI Tests and Interviews + Feedback<br />
+                Developing Figma screens for new features</b
+              >
+            </p>
+            <p class="text-gray-700 text-sm mt-2">
               Frontend dev. for an intern software for projects, employees, and
               team management.
             </p>
@@ -474,14 +483,16 @@
     <!-- Experience Section -->
     <section
       id="projects"
-      class="px-8 py-16 bg-white bg-gradient-to-br from-indigo-200 via-purple-100 to-blue-200"
+      class="px-4 sm:px-8 py-16 bg-white bg-gradient-to-br from-indigo-200 via-purple-100 to-blue-200"
     >
       <h2
-        class="text-4xl font-bold mb-12 text-center text-gray-800 animate__animated animate__fadeIn animate__delay-3s"
+        class="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center text-gray-800 animate__animated animate__fadeIn animate__delay-3s"
       >
         Projects
       </h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
+      >
         <div
           *ngFor="let project of projects"
           class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-105 flex flex-col h-full"
@@ -491,36 +502,36 @@
             [alt]="project.title"
             class="w-full h-48 object-cover"
           />
-          <div class="p-6 flex flex-col flex-grow">
-            <h3 class="text-xl font-semibold mb-2 text-gray-800">
+          <div class="p-4 sm:p-6 flex flex-col flex-grow">
+            <h3 class="text-lg sm:text-xl font-semibold mb-2 text-gray-800">
               {{ project.title }}
             </h3>
-            <p class="text-gray-600 mb-4 flex-grow">
+            <p class="text-sm sm:text-base text-gray-600 mb-4 flex-grow">
               {{ project.description }}
             </p>
             <div class="flex flex-wrap gap-2 mb-4">
               <span
                 *ngFor="let tech of project.technologies"
-                class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm"
+                class="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs sm:text-sm"
               >
                 {{ tech }}
               </span>
             </div>
             <div class="flex justify-between items-center mt-auto">
               @if(project.githubLink === '' && project.liveLink === ''){
-              <div class="text-gray-800"><b>NDA / NOT LIVE YET</b></div>
+              <div class="text-gray-800 text-sm"><b>NDA / NOT LIVE YET</b></div>
               } @else {
               <a
                 [href]="project.githubLink"
                 target="_blank"
-                class="text-blue-600 hover:text-blue-800 transition-colors"
+                class="text-blue-600 hover:text-blue-800 transition-colors text-sm sm:text-base"
               >
-                <i class="fab fa-github mr-2"></i>GitHub
+                <i class="fab fa-github mr-1 sm:mr-2"></i>GitHub
               </a>
               <a
                 [href]="project.liveLink"
                 target="_blank"
-                class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                class="px-3 py-1 sm:px-4 sm:py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm sm:text-base"
               >
                 View Project
               </a>
