@@ -58,7 +58,7 @@ export class AppComponent {
     {
       title: 'Nodrama.ai',
       description:
-        'Lead Dev: Integrated as a master thesis project aiming to develop a fully operational AI compliance tool, designed to identify and validate compliance within the EU AI Act rules and standards. The objective is to easy compliance track and checks for customers / clients users : by entering their use cases, the tool generates a report of any inconsistencies or non-compliance.',
+        'Lead Developer : Integrated as a master thesis project aiming to develop a fully operational AI compliance tool, designed to identify and validate compliance within the EU AI Act rules and standards. The objective is to easy compliance track and checks for customers / clients users : by entering their use cases, the tool generates a report of any inconsistencies or non-compliance.',
       image: 'assets/nodrama.png',
       technologies: [
         'Angular',
