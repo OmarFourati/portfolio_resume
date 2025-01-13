@@ -30,7 +30,7 @@ export class AppComponent {
     {
       title: 'Vivian Framework',
       description:
-        'University project. Framework for deploying and testing virtual prototypes of technical devices',
+        'Worked on a university project related to setting up a framework for deploying and testing virtual prototypes of technical devices.',
       image: 'assets/vivian-framework.png',
       technologies: ['HTML', 'CSS', 'Unity', 'C#'],
       githubLink:
@@ -40,7 +40,7 @@ export class AppComponent {
     {
       title: 'Jayvee',
       description:
-        'Work on a university project developed for Data Engineering and Pipelining. Jayvee is a domain-specific language (DSL) for automated processing of data pipelines',
+        'Worked on a university project Jayvee, a domain-specific language (DSL), developed for Data Engineering and Pipelining.',
       image: 'assets/jayvee.png',
       technologies: ['Typescript', 'Javascript', 'Python'],
       githubLink: 'https://github.com/jvalue/jayvee',
@@ -49,7 +49,7 @@ export class AppComponent {
     {
       title: 'Simplified Bunco',
       description:
-        'Project developed for university within the "Applied System Software" course. The goal was to understand software engineering and develop a project by going through all the crucial steps. (Requirements, User Stories, Software Architecture, Software Testing and Dev.)',
+        'Project developed for university and integrated in the "Applied System Software" course. The goal was to understand software engineering and develop a project by going through all the crucial steps from Requirements, User Stories, Software Architecture and Software Testing & Development.',
       image: 'assets/bunco.png',
       technologies: ['React', 'Typescript', 'HTML', 'CSS'],
       githubLink: 'https://github.com/OmarFourati/DIP392-Simplified-Bunco',
@@ -58,7 +58,7 @@ export class AppComponent {
     {
       title: 'Nodrama.ai',
       description:
-        'Master Thesis Project: An AI Compliance tool, designed to identify and validate compliance within the EU AI Act rules and standards. Customer should input their use cases and the tool will generate a report of any inconsistencies or non-compliance.',
+        'Lead Dev: Integrated as a master thesis project aiming to develop a fully operational AI compliance tool, designed to identify and validate compliance within the EU AI Act rules and standards. The objective is to easy compliance track and checks for customers / clients users : by entering their use cases, the tool generates a report of any inconsistencies or non-compliance.',
       image: 'assets/nodrama.png',
       technologies: [
         'Angular',
